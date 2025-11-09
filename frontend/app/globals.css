@@ -406,3 +406,12 @@ body {
 .animate-stagger > :nth-child(6) {
   animation-delay: 0.5s;
 }
+
+/* Unified layout rhythm */
+.container-wrapper {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-32 md:py-40;
+}
